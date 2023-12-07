@@ -1,3 +1,5 @@
+#!/usr/bin/env deno run --allow-net
+
 import { Application, Router } from 'https://deno.land/x/oak/mod.ts';
 
 const file = await Deno.readTextFile('facts.json');
