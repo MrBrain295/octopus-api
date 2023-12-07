@@ -2,5 +2,5 @@
   "version": 2,
   "builds": [{ "src": "app.ts", "use": "@vercel/deno" }],
   "routes": [{ "src": "/random-octopus-fact", "dest": "app.ts" }],
-  "env": { "DENO_ENV": "production", "PORT": 3000 }
+  "env": { "DENO_ENV": "production", "PORT": "3000" }
 }
